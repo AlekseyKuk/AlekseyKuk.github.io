@@ -1,0 +1,132 @@
+body{
+display: block;
+margin: 0;
+padding:0;
+}
+
+.header{
+	width:100%;
+	height:100vh;
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	background: url(../img/Start.png) no-repeat;
+	background-attachment:fixed;
+	background-size: 100%;
+}
+
+.nav{
+	width: 100%;
+	height: 55px;
+	background: #0000ff45;
+	margin:0px;
+	position:fixed;
+	direction: flex;
+	flex-direction: column;
+
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin:auto;
+	position: absolute;
+	margin-top: 20%;
+}
+
+.container h1{
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom:0px;
+}
+
+.container button{
+	width: 150px;
+	height: 50px;
+	border: none;
+	border-radius:50px;
+	background: blue;
+	color: white;
+	margin-left:50%;
+	margin-bottom:5px;
+}
+
+.container hr{
+	width:40%;
+	border: 1px solid #FFA44A;
+	border-radius:3px; 
+}
+
+.main{
+	display: flex;
+ 	flex-direction: column;
+ 	width: 100%;
+ 	height: 100vh;
+
+}
+
+.name{
+	width:100%;
+	text-align: center;
+	margin-top:30px;
+}
+
+.name h1{
+	margin-bottom:10px;
+}
+
+.name hr{
+	width:35%;
+	border: 1px solid #FFA44A;
+	border-radius:3px; 
+}
+
+.tarif{
+	width:100%;
+	display: flex;
+	margin-top:50px;
+ 	flex-direction: row;
+ 	justify-content: space-around;
+
+}
+
+.tarif1{
+	background: #dbdbdbd9;
+	width: 350px;
+	height: 450px;
+	box-shadow: 20px 20px 10px #CCCCCC;
+	margin:10px;
+}
+
+.tarif2{
+	background: #dbdbdbd9;
+	width: 350px;
+	height: 450px;
+	box-shadow: 20px 20px 10px #CCCCCC;
+	margin:10px;
+}
+
+.tarif3{
+	background: #dbdbdbd9;
+	width: 350px;
+	height: 450px;
+	box-shadow: 20px 20px 10px #CCCCCC;
+	margin:10px;
+}
+
+.tarif h2{
+	text-align: center;
+	color:red;
+	font-size: 30px;
+	margin-bottom:0px;
+
+}
+
+.tarif hr{
+	width:40%;
+	border: 1px solid #FFA44A;
+	border-radius:3px; 
+}
