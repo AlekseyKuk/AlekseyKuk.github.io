@@ -10,7 +10,7 @@ padding:0;
 	display:flex;
 	flex-direction: row;
 	justify-content:center;
-	background: url(../img/Start.png) no-repeat;
+	background: url(../Img/Start.png) no-repeat;
 	background-attachment:fixed;
 	background-size: 100%;
 }
