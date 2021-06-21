@@ -1,0 +1,46 @@
+@media (max-width:1369px){
+	html{
+ font-size:14px;
+ }
+ .menu{
+ 	display: none;
+ }
+
+
+.price-tags{
+flex-direction: column;
+margin-top: 14px;
+}
+.price-tag{
+	margin-top: 14px;
+}
+
+.logo{
+	display: none;
+}
+
+.m-menu-link{
+	display: block;
+	
+}
+
+.header{
+	align-items: left;
+}
+
+}
+
+@media (max-width:991px){
+	html{
+ font-size:14px;
+ }
+ span{
+ 	font-size:12px;
+ }
+ p{
+ 	font-size:14px;
+ }
+}
+	
+
+	
